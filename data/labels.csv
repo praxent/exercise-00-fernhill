@@ -1,0 +1,41 @@
+alert_id,analyst_disposition,analyst_note,labeled_by
+ALT-2026-0901,clear,"Travel notice on file for these dates. Chip transaction, amount in line with history.",analyst_2
+ALT-2026-0902,clear,"Travel notice on file for these dates. Chip transaction, amount in line with history.",analyst_2
+ALT-2026-0903,clear,"Travel notice on file for these dates. Chip transaction, amount in line with history.",analyst_1
+ALT-2026-0904,clear,"Travel notice on file for these dates. Chip transaction, amount in line with history.",analyst_1
+ALT-2026-0905,clear,"Travel notice on file for these dates. Chip transaction, amount in line with history.",analyst_1
+ALT-2026-0906,hold_and_call,"No travel notice, no recent international activity. Hold and confirm by phone.",analyst_1
+ALT-2026-0907,clear,"No notice, but cardholder has three international transactions this year and this is a chip transaction at a restaurant. Clear.",analyst_2
+ALT-2026-0908,hold_and_call,"Chip transaction abroad, no notice. Would clear if contact confirms. Hold.",analyst_2
+ALT-2026-0909,escalate,"Classic card-testing pattern: micro-authorizations, foreign IP, new device, string of declines. Block and escalate.",analyst_3
+ALT-2026-0910,escalate,"Classic card-testing pattern: micro-authorizations, foreign IP, new device, string of declines. Block and escalate.",analyst_3
+ALT-2026-0911,clear,"Small amounts, probably a subscription trial. Clear.",analyst_1
+ALT-2026-0912,escalate,"Classic card-testing pattern: micro-authorizations, foreign IP, new device, string of declines. Block and escalate.",analyst_2
+ALT-2026-0913,escalate,"Address and phone changed this week, new device, ship-to differs from billing, amount 4x max. Account takeover pattern. Escalate.",analyst_2
+ALT-2026-0914,escalate,"Address and phone changed this week, new device, ship-to differs from billing, amount 4x max. Account takeover pattern. Escalate.",analyst_2
+ALT-2026-0915,escalate,"Address and phone changed this week, new device, ship-to differs from billing, amount 4x max. Account takeover pattern. Escalate.",analyst_2
+ALT-2026-0916,hold_and_call,"Contact details changed recently, large purchase. Try the customer first.",analyst_1
+ALT-2026-0917,clear,Chip transaction at a local merchant the cardholder has used before. Large but consistent with a furniture or repair purchase. Clear.,analyst_1
+ALT-2026-0918,clear,Chip transaction at a local merchant the cardholder has used before. Large but consistent with a furniture or repair purchase. Clear.,analyst_3
+ALT-2026-0919,clear,Chip transaction at a local merchant the cardholder has used before. Large but consistent with a furniture or repair purchase. Clear.,analyst_2
+ALT-2026-0920,clear,Chip transaction at a local merchant the cardholder has used before. Large but consistent with a furniture or repair purchase. Clear.,analyst_1
+ALT-2026-0921,clear,Chip transaction at a local merchant the cardholder has used before. Large but consistent with a furniture or repair purchase. Clear.,analyst_3
+ALT-2026-0922,clear,"New device but IP matches billing address, merchant used before, amount normal. Clear.",analyst_2
+ALT-2026-0923,clear,"New device but IP matches billing address, merchant used before, amount normal. Clear.",analyst_1
+ALT-2026-0924,clear,"New device but IP matches billing address, merchant used before, amount normal. Clear.",analyst_2
+ALT-2026-0925,hold_and_call,"Cash abroad with no travel history and no notice. Could be travel, could be a cloned card. Hold and call.",analyst_2
+ALT-2026-0926,hold_and_call,"Cash abroad with no travel history and no notice. Could be travel, could be a cloned card. Hold and call.",analyst_3
+ALT-2026-0927,escalate,Cash abroad with no notice. Escalate.,analyst_2
+ALT-2026-0928,hold_and_call,"Cash abroad with no travel history and no notice. Could be travel, could be a cloned card. Hold and call.",analyst_3
+ALT-2026-0929,hold_and_call,"Keyed fuel purchase far from home, last transaction at home a few hours ago. Skimmed card pattern. Hold and call.",analyst_3
+ALT-2026-0930,hold_and_call,"Keyed fuel purchase far from home, last transaction at home a few hours ago. Skimmed card pattern. Hold and call.",analyst_2
+ALT-2026-0931,hold_and_call,"Keyed fuel purchase far from home, last transaction at home a few hours ago. Skimmed card pattern. Hold and call.",analyst_1
+ALT-2026-0932,clear,"Monthly subscription re-tried after a soft decline. Same merchant, same amount, every month. Clear.",analyst_1
+ALT-2026-0933,clear,"Monthly subscription re-tried after a soft decline. Same merchant, same amount, every month. Clear.",analyst_3
+ALT-2026-0934,clear,"Monthly subscription re-tried after a soft decline. Same merchant, same amount, every month. Clear.",analyst_3
+ALT-2026-0935,hold_and_call,No enrichment data. Large online electronics purchase. Cannot clear without history. Hold and call.,analyst_1
+ALT-2026-0936,escalate,Velocity rule fired on micro-amounts. Even without enrichment this is card testing. Escalate.,analyst_3
+ALT-2026-0937,clear,Chip purchase at the local grocery store in the home city. Rule misfired on a terminal replacement. Clear.,analyst_3
+ALT-2026-0938,hold_and_call,"Cash abroad, no enrichment, no notice. Hold and call.",analyst_2
+ALT-2026-0939,hold_and_call,Travel booking from a new device with no history available. Hold and call.,analyst_3
+ALT-2026-0940,hold_and_call,"Keyed fuel far from home, no enrichment. Hold and call.",analyst_2
